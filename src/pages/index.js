@@ -32,11 +32,10 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md-8 mx-auto">
             <h2 className="section-heading">
-              Discover what all the buzz is about!
+              Scrap MediaならScrapboxで簡単に読書管理ができます。
             </h2>
             <p>
-              Our app is available on any mobile device! Download now to get
-              started!
+              アプリはAndroidで利用可能です。今すぐダウンロードして始めましょう。
             </p>
             <div className="badges">
               <a className="badge-link" href="/#">
@@ -51,67 +50,31 @@ const IndexPage = () => (
     <section className="features" id="features">
       <div className="container">
         <div className="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
+          <h2>Scrap Mediaでできること</h2>
           <p className="text-muted">
-            Check out what you can do with this app theme!
+            以下の機能を利用できます。
           </p>
           <hr />
         </div>
         <div className="row">
-          <div className="col-lg-4 my-auto">
-            <div className="device-container">
-              <div className="device-mockup iphone6_plus portrait white">
-                <div className="device">
-                  <div className="screen">
-                    <img src={demo1} className="img-fluid" alt="" />
-                  </div>
-                  <div className="button"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-8 my-auto">
+          <div className="col-lg-12 my-auto">
             <div className="container-fluid">
               <div className="row">
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
+                    <h3>書籍のQRコードから書影付きのページをScrapboxに作成</h3>
                     <p className="text-muted">
-                      Ready to use HTML/CSS device mockups, no Photoshop
-                      required!
+                      Scrapboxで読書管理をする上で必須となる書影をopenBD / Amazonから取得
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
+                    <h3>Twitterにアフィリエイトリンク付きの短縮URLを作成</h3>
                     <p className="text-muted">
-                      Put an image, video, animation, or anything else in the
-                      screen!
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="feature-item">
-                    <i className="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
-                    <p className="text-muted">
-                      As always, this theme is free to download and use for any
-                      purpose!
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="feature-item">
-                    <i className="icon-lock-open text-primary"></i>
-                    <h3>Open Source</h3>
-                    <p className="text-muted">
-                      Since this theme is MIT licensed, you can use it
-                      commercially!
+                      Amazon Product Advertising APIを利用してAmazonアフィリエイトリンクを作成
                     </p>
                   </div>
                 </div>
