@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/meganii/src/github.com/meganii/flutter-scrapmedia-landing-page/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"scrapmedia","short_name":"Landing","start_url":"/gatsby-starter-newage/","background_color":"#96E090","theme_color":"#96E090","display":"standalone","icon":"src/assets/img/website-icon.png"},
+      options: {"plugins":[],"name":"scrapmedia","short_name":"Landing","start_url":"/scrapmedia/","background_color":"#96E090","theme_color":"#96E090","display":"standalone","icon":"src/assets/img/website-icon.png"},
     },{
       plugin: require('/Users/meganii/src/github.com/meganii/flutter-scrapmedia-landing-page/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},

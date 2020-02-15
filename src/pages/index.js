@@ -60,16 +60,25 @@ const IndexPage = () => (
           <div className="col-lg-12 my-auto">
             <div className="container-fluid">
               <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-4">
                   <div className="feature-item">
                     <i className="icon-screen-smartphone text-primary"></i>
-                    <h3>書籍のQRコードから書影付きのページをScrapboxに作成</h3>
+                    <h3>書籍のISBNコードを読み取り書影付きのページをScrapboxに作成</h3>
                     <p className="text-muted">
                       Scrapboxで読書管理をする上で必須となる書影をopenBD / Amazonから取得
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-4">
+                  <div className="feature-item">
+                    <i className="icon-screen-smartphone text-primary"></i>
+                    <h3>手動でISBNを入力し、検索可能</h3>
+                    <p className="text-muted">
+                      ISBNの手動入力へも対応
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4">
                   <div className="feature-item">
                     <i className="icon-camera text-primary"></i>
                     <h3>Twitterにアフィリエイトリンク付きの短縮URLを作成</h3>
