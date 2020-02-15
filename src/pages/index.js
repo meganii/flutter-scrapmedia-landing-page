@@ -38,8 +38,8 @@ const IndexPage = () => (
               アプリはAndroidで利用可能です。今すぐダウンロードして始めましょう。
             </p>
             <div className="badges">
-              <a className="badge-link" href="/#">
-                <img src={gplay} alt="" />
+              <a className="badge-link" href="https://play.google.com/store/apps/details?id=com.meganii.flutter_scrapmedia">
+                <img src={gplay} alt="Android app Scrap Media" />
               </a>
             </div>
           </div>
