@@ -7,7 +7,7 @@ export default function Footer() {
         <p>&copy; meganii.com 2020. All Rights Reserved.</p>
         <ul className="list-inline">
           <li className="list-inline-item">
-            <a href="/#">Privacy</a>
+            <a href="/privacy">Privacy</a>
           </li>
           <li className="list-inline-item">
             <a href="/#">Terms</a>
